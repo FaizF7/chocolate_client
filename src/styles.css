@@ -1,0 +1,132 @@
+body {
+    background-color: burlywood;
+    align-items: center;
+    font-family:fantasy;
+}
+
+nav {
+    /* width:80%; */
+    display: flex;
+    justify-content: center;
+    color: beige;
+    
+}
+
+ul {
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+
+
+li {
+    /* margin-inline: 10%; */
+    padding-inline: 10px;
+    justify-content: center;
+
+}
+
+link {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+h1,h2 {
+    color:beige;
+    text-align: center;
+}
+
+h4 {
+    color:brown;
+    text-align: center;
+    
+}
+p {
+    color:brown;
+    text-align: center;
+    
+}
+
+#chocolates {
+    width:80%;
+    display: flex;
+    flex-wrap: wrap ;
+    align-content:center;
+    margin:auto;
+    justify-content: center;
+    
+    
+}
+
+
+article{
+    background-color: beige;
+    width : 20%;
+    border: 3px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3%;
+    margin-bottom: 3%;
+    padding: 5px 5px;
+    align-items:center;
+}
+
+#chocolate-form {
+    background-color: chocolate;
+    width : 30%;
+    height: 20%;
+    border: 3px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+
+    color: beige;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: auto;
+    padding: 10px 10px;
+
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+#chocolate-form h3{
+    margin: auto;
+    padding-bottom: 1em;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#chocolate-form input, select, option{
+    /* display: flex; */
+    /* margin: auto; */
+    /* align-items:center; */
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border-color: brown;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+#chocolate-form #submit-button, button {
+    display: flex;
+    font-family: fantasy;
+    color: black;
+    border-color: brown;
+    background-color: burlywood;
+    border-radius: 10px;
+}
