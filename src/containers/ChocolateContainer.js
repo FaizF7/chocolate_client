@@ -17,7 +17,7 @@ const ChocolateContainer = () => {
     }
 
     const fetchEstates = async () => {
-        const response = await fetch ("http://localhost:8080/chocolates")
+        const response = await fetch ("http://localhost:8080/estates")
         const data = await response.json()
         setEstates(data)
     }
