@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import ChocolateList from "../components/ChocolateList";
 import ChocolateForm from "../components/ChocolateForm";
 import Home from "../components/Home";
-import Chocolate from "../components/Chocolate";
 
 const ChocolateContainer = () => {
     const [chocolates, setChocolates] = useState([]);

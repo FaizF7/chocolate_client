@@ -31,8 +31,8 @@ const ChocolateForm = ({estates, postChocolate}) => {
             }
         )
         
-        navigate("/chocolates")
-        
+        navigate("/chocolates");
+    
     }
 
     const estateOptions = estates.map((estate)=>{
